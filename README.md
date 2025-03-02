@@ -19,3 +19,8 @@
 - Created a DynamoDB table named `table_nearsight`.
 - Primary Key: `id` (String).
 - Sample item: age.
+
+# Task 4: Link Serverless Function to Web App
+
+- Deployed the serverless function using API Gateway.
+- API endpoint: arn:aws:apigateway:eu-north-1::/apis/9kac7ijprb/routes/20o1nwl
