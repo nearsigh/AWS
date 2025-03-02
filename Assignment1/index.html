@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>My Web App</h1>
+    <button onclick="callAPI()">Call API</button>
+    <p id="response"></p>
+    <script>
+        async function callAPI() {
+            const response = await fetch('');
+            const data = await response.json();
+            document.getElementById('response').innerText = data.body;
+        }
+    </script>
+</body>
+</html>
