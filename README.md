@@ -14,3 +14,8 @@ Function code: exports.handler = async (event) => {
   return response;
 };
 
+# Task 3: Create Data Table
+
+- Created a DynamoDB table named `table_nearsight`.
+- Primary Key: `id` (String).
+- Sample item: age.
