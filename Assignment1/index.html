@@ -6,7 +6,7 @@
     <p id="response"></p>
     <script>
         async function callAPI() {
-            const response = await fetch('');
+            const response = await fetch('arn:aws:apigateway:eu-north-1::/apis/9kac7ijprb/routes/20o1nwl');
             const data = await response.json();
             document.getElementById('response').innerText = data.body;
         }
