@@ -24,3 +24,9 @@
 
 - Deployed the serverless function using API Gateway.
 - API endpoint: arn:aws:apigateway:eu-north-1::/apis/9kac7ijprb/routes/20o1nwl
+
+# Task 5: Add Interactivity to Web App
+
+- Modified the web app to invoke the API.
+- Added a button to call the API and display the response.
+- Code: 
