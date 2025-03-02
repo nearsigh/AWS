@@ -29,4 +29,18 @@
 
 - Modified the web app to invoke the API.
 - Added a button to call the API and display the response.
-- Code: 
+- Code: <!DOCTYPE html>
+<html>
+<body>
+    <h1>My Web App</h1>
+    <button onclick="callAPI()">Call API</button>
+    <p id="response"></p>
+    <script>
+        async function callAPI() {
+            const response = await fetch('arn:aws:apigateway:eu-north-1::/apis/9kac7ijprb/routes/20o1nwl');
+            const data = await response.json();
+            document.getElementById('response').innerText = data.body;
+        }
+    </script>
+</body>
+</html>
